@@ -23,7 +23,7 @@ a{color:inherit}
 /* ---------------- HOME: hero with nav over the photo ---------------- */
 .hero{
   position:relative;min-height:750px;
-  background:url("https://bodyshopgymwilton.com/wp-content/uploads/2023/06/homepage-header.jpg") center/cover no-repeat #efe6e6;
+  background:url("images/hero.jpg") center/cover no-repeat #efe6e6;
   display:flex;flex-direction:column;
 }
 .hero-nav{padding:22px 20px 0}
