@@ -23,7 +23,7 @@ a{color:inherit}
 /* ---------------- HOME: hero with nav over the photo ---------------- */
 .hero{
   position:relative;min-height:750px;
-  background:url("images/hero.jpg") center/cover no-repeat #efe6e6;
+  background:url("https://bodyshopgymwilton.com/wp-content/uploads/2023/06/homepage-header.jpg") center/cover no-repeat #efe6e6;
   display:flex;flex-direction:column;
 }
 .hero-nav{padding:22px 20px 0}
@@ -129,6 +129,12 @@ a{color:inherit}
 /* trainers */
 .trainer{
   max-width:900px;margin:0 auto;display:flex;gap:34px;align-items:flex-start;text-align:left;
+}
+.trainer + .trainer{
+  margin-top:70px;padding-top:70px;border-top:1px solid var(--rule);
+}
+@media (max-width:782px){
+  .trainer + .trainer{margin-top:48px;padding-top:48px}
 }
 .trainer-photo{flex:0 0 280px;max-width:280px}
 .trainer-name{font-size:28px;font-weight:600;color:var(--ink);margin:0 0 4px}
